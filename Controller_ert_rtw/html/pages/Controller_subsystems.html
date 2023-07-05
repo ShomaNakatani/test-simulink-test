@@ -1,0 +1,130 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="stylesheet" type="text/css" href="rtwreport.css" /><script language="JavaScript" type="text/javascript" src="rtwshrink.js"></script><title>
+Controller の非バーチャル サブシステム
+</title>
+
+</head>
+<body onload="try {if (top) {if (top.rtwPageOnLoad) top.rtwPageOnLoad('rtwIdSubsystem'); else local_onload();}} catch(err) {};">
+<h1>
+Controller の非バーチャル サブシステム
+</h1>
+<div>
+
+</div>
+<div>
+
+</div>
+<h3 name="sec_コード_マッピング" id="sec_code_mapping">
+1. コード マッピング <span title="Click to shrink or expand section" style="cursor:pointer;font-weight:normal;" id="rtwIdSubsystem_table_001_control" onclick ="if (rtwTableShrink) rtwTableShrink(window.document, this, 'rtwIdSubsystem_table_001', false)"><span class="shrink-button">[<u>hide</u>]</span></span>
+</h3>
+<table width="100%" name="rtwIdSubsystem_table_001" id="rtwIdSubsystem_table_001" border="0">
+<tr>
+<td align="left" valign="top">
+<p>
+次の表: <br /><ul>
+<li>
+は、モデル内の非バーチャル サブシステムから、生成されたコードの関数または再利用可能な関数へのマッピングを示します。次の表
+</li>
+<li>
+は、非バーチャル サブシステムに割り当てられた関数のパッケージ化設定 (Subsystem ブロック ダイアログの [関数のパッケージ化] エントリ) が [自動] または [再利用可能な関数] でも、コードが再利用されなかった例外を示しています。
+</li>
+
+</ul>
+
+</p>
+
+</td>
+
+</tr>
+<tr>
+<td align="left" valign="top">
+<table class="AltRow FirstColumn" cellspacing="0">
+<tr class="heading">
+<th align="left" valign="top">
+<b>
+サブシステム
+</b>
+
+</th>
+<th align="left" valign="top">
+<b>
+再利用設定
+</b>
+
+</th>
+<th align="left" valign="top">
+<b>
+再利用結果
+</b>
+
+</th>
+<th align="left" valign="top">
+<b>
+結果診断
+</b>
+
+</th>
+
+</tr>
+<tr class="even">
+<td align="left" valign="top">
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'SILBlock:1\')'})"  name="code2model" class="code2model">&lt;S1&gt;</a>
+</td>
+<td align="left" valign="top">
+Inline
+</td>
+<td align="left" valign="top">
+Inline
+</td>
+<td align="left" valign="top">
+<FONT COLOR="green">normal</FONT>
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+<h3 name="sec_コード再利用の例外" id="sec_reuse_exception">
+2. コード再利用の例外 <span title="Click to shrink or expand section" style="cursor:pointer;font-weight:normal;" id="rtwIdSubsystem_table_002_control" onclick ="if (rtwTableShrink) rtwTableShrink(window.document, this, 'rtwIdSubsystem_table_002', false)"><span class="shrink-button">[<u>hide</u>]</span></span>
+</h3>
+<table width="100%" name="rtwIdSubsystem_table_002" id="rtwIdSubsystem_table_002" border="0">
+<tr>
+<td align="left" valign="top">
+<p>
+このセクションでは、以下の関数のパッケージ化設定をもつ非バーチャル サブシステムが、以下のようになった原因である各例外の詳細を示します。<br /><ul>
+<li>
+[自動] の場合に、インライン コード セグメントになる
+</li>
+<li>
+[自動] の場合に、引数をもたない、再利用できない関数になる
+</li>
+<li>
+[再利用可能な関数] の場合に、引数をもたない、再利用できない関数になる
+</li>
+
+</ul>
+<b>メモ:</b>このセクションでは、関数のプロパティ (次元、データ型、作業ベクトル、 パラメーターなど) の違いにより再利用されなかった、 [自動] とマークされているグラフィカルに同一な 非バーチャル サブシステムはレポートしません。そうした場合は、モデル内または インライン生成コード内にあるサブシステムの関数の 属性の違いを検査することで、再利用されない理由を 特定できます。
+</p>
+
+</td>
+
+</tr>
+<tr>
+<td align="left" valign="top">
+<br /><b>モデルにおける再利用不可例外。</b>
+</td>
+
+</tr>
+
+</table>
+
+<script>function postParentWindowMessage(message) {window.parent.postMessage(message, "*");}</script>
+</body>
+
+</html>
